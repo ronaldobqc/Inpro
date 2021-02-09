@@ -53,7 +53,7 @@ input[disabled] {
 #toggle_shop_view:before {
 	content: "\f009";
 	margin-right: 5px;
-	color: #00ccbd;
+	color: #008AB8;
 }
 
 #toggle_shop_view:after {
@@ -66,7 +66,7 @@ input[disabled] {
 }
 
 #toggle_shop_view.grid-view:after {
-	color: #00ccbd;
+	color: #008AB8;
 }
 
 #sort_view {
@@ -201,7 +201,7 @@ li.product {
 .product [class*="col-"]:first-child .newproduct,
 .product [class*="col-"]:first-child .onsale {
 	position: absolute;
-	background-color: #82cc33;
+	background-color: #0BD4D1;
 	color: #ffffff;
 	padding: 8px 18px;
 	text-transform: uppercase;
@@ -211,7 +211,7 @@ li.product {
 }
 
 .product [class*="col-"]:first-child .onsale {
-	background-color: #00ccbd;
+	background-color: #008AB8;
 	left: 20px;
 	bottom: 20px;
 	right: auto;
@@ -249,7 +249,7 @@ li.product {
 
 .price ins {
 	text-decoration: none;
-	color: #00ccbd;
+	color: #008AB8;
 }
 
 .price .price-text {
@@ -273,7 +273,7 @@ li.product {
 	height: 40px;
 	font-size: 0;
 	text-align: center;
-	background-color: #00ccbd;
+	background-color: #008AB8;
 }
 
 .product-buttons a.loading [class*='rt-icon'], .product-buttons a.loading:before {
@@ -303,13 +303,13 @@ li.product {
 
 .product-buttons a.favorite_button {
 	background-color: #ffffff;
-	color: #00ccbd;
+	color: #008AB8;
 }
 
 .product-buttons a.favorite_button:before {
 	font-family: FontAwesome;
 	content: "\f004";
-	color: #00ccbd;
+	color: #008AB8;
 }
 
 .product-buttons a:hover:before {
@@ -323,7 +323,7 @@ li.product {
 }
 
 .product-buttons a.added_to_cart:hover {
-	background-color: #00ccbd;
+	background-color: #008AB8;
 }
 
 .product-buttons a.added_to_cart:before {
@@ -537,7 +537,7 @@ h1.product_title {
 	width: 22px;
 	text-align: center;
 	line-height: 10px;
-	color: #82cc33;
+	color: #0BD4D1;
 	display: inline-block;
 }
 
@@ -684,7 +684,7 @@ h1.product_title {
 }
 
 .star-rating.small-stars span:before {
-	color: #00ccbd;
+	color: #008AB8;
 }
 
 p.stars a:before, p.stars a:hover ~ a:before {
@@ -720,7 +720,7 @@ p.stars a:before {
 
 p.stars.selected a.active:before, p.stars:hover a:before {
 	content: "\e7aa";
-	color: #00ccbd;
+	color: #008AB8;
 	opacity: 1;
 }
 
@@ -732,7 +732,7 @@ p.stars.selected a.active ~ a:before {
 
 p.stars.selected a:not(.active):before {
 	content: "\e7aa";
-	color: #00ccbd;
+	color: #008AB8;
 	opacity: 1;
 }
 
@@ -1147,8 +1147,8 @@ table.cart .product-remove {
 }
 
 .woocommerce-MyAccount-navigation .is-active a {
-	background-color: #00ccbd;
-	border-color: #00ccbd;
+	background-color: #008AB8;
+	border-color: #008AB8;
 }
 
 .woocommerce-MyAccount-content h2 {
@@ -1190,7 +1190,7 @@ table.cart .product-remove {
 	text-align: left;
 	padding: 0;
 	margin-top: 7px;
-	color: #82cc33;
+	color: #0BD4D1;
 }
 
 .widget_shopping_cart .remove {
@@ -1226,7 +1226,7 @@ table.cart .product-remove {
 }
 
 .widget_price_filter .ui-slider-range {
-	background-color: #00ccbd;
+	background-color: #008AB8;
 }
 
 .widget_price_filter .ui-slider-horizontal {
@@ -1289,7 +1289,7 @@ table.cart .product-remove {
 	cursor: pointer;
 	-ms-touch-action: none;
 	touch-action: none;
-	background-color: #00ccbd;
+	background-color: #008AB8;
 	border-radius: 50%;
 }
 

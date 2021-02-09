@@ -24,7 +24,7 @@
                                 <div class="form-group row">
                                   <label for="portada" class="col-sm-1 col-form-label">Portada:</label>
                                     <div class="col-sm-11">
-                                    <input type="file" class="form-control-file" id="portada" name="portada">
+                                    <input type="file" class="form-control-file" id="portada" name="portada" required>
                                     </div>
                                     </div>
                                 <div class="form-group row">
@@ -45,13 +45,13 @@
                                 <div class="form-group row">
                                     <label for="parrafo1" class="col-sm-1 col-form-label">Parrafo1:</label>
                                     <div class="col-md-11">
-                                        <textarea class="form-control" id="parrafo1" rows="3" placeholder="Contenido" name="parrafo1" maxlength="450">{{old('parrafo1') ?? $noticia['parrafo1'] }}</textarea>
+                                        <textarea class="form-control" id="parrafo1" rows="3" placeholder="Contenido" name="parrafo1" maxlength="450" required>{{old('parrafo1') ?? $noticia['parrafo1'] }}</textarea>
                                     </div>                                    
   				                </div>
                                   <div class="form-group row">
                                     <label for="parrafo2" class="col-sm-1 col-form-label">Parrafo2:</label>
                                     <div class="col-md-11">
-                                        <textarea class="form-control" id="parrafo2" rows="3" placeholder="Contenido" name="parrafo2" maxlength="450">{{old('parrafo2') ?? $noticia['parrafo2'] }}</textarea>
+                                        <textarea class="form-control" id="parrafo2" rows="3" placeholder="Contenido" name="parrafo2" maxlength="450" required>{{old('parrafo2') ?? $noticia['parrafo2'] }}</textarea>
                                     </div>                                    
                                   </div>
                                   <div class="form-group row">
@@ -68,11 +68,11 @@
                                   <div class="form-group row">
                                   <label for="imagen1" class="col-sm-1 col-form-label">Imagen:</label>
                                     <div class="col-sm-3">
-                                    <input type="file" class="form-control-file" id="imagen1" name="imagen1">
+                                    <input type="file" class="form-control-file" id="imagen1" name="imagen1" required>
                                     </div>
                                     <label for="imagen2" class="col-sm-1 col-form-label">Imagen:</label>
                                     <div class="col-sm-3">
-                                    <input type="file" class="form-control-file" id="imagen2" name="imagen2">
+                                    <input type="file" class="form-control-file" id="imagen2" name="imagen2" required>
                                     </div>
                                     <label for="imagen3" class="col-sm-1 col-form-label">Imagen:</label>
                                     <div class="col-sm-3">

@@ -44,7 +44,10 @@
 								</div>
 							</article>-->
 							<!-- .post -->
-							<article class="post format-small-image">
+
+
+
+							<!--<article class="post format-small-image">
 								<div class="side-item side-md content-padding big-padding with_border">
 									<div class="row">
 										<div class="col-md-5">
@@ -72,7 +75,7 @@
 										</div>
 									</div>
 								</div>
-							</article>
+							</article>-->
 							@foreach($noticias as $noticia)
 							<article class="post format-small-image">
 								<div class="side-item side-md content-padding big-padding with_border">
