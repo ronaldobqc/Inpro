@@ -24,7 +24,11 @@
                                 <div class="form-group row">
                                   <label for="portada" class="col-sm-1 col-form-label">Portada:</label>
                                     <div class="col-sm-11">
+                                    @isset($update)
+                                    <input type="file" class="form-control-file" id="portada" name="portada">
+                                    @else
                                     <input type="file" class="form-control-file" id="portada" name="portada" required>
+                                    @endisset
                                     </div>
                                     </div>
                                 <div class="form-group row">
@@ -61,18 +65,31 @@
                                 </div>
                                     <label for="parrafo3" class="col-sm-1 col-form-label">Parrafo3:</label>
                                     <div class="col-md-7">
-                                        <textarea class="form-control" id="parrafo3" rows="4" placeholder="Contenido" name="parrafo3" maxlength="450">{{old('parrafo3') ?? $noticia['parrafo3'] }}</textarea>
+                                        <textarea class="form-control" id="parrafo3" rows="4" placeholder="Contenido" name="parrafo3" maxlength="450" required>{{old('parrafo3') ?? $noticia['parrafo3'] }}</textarea>
+                                    </div> 
+
+                                    <label for="parrafo4" class="col-sm-1 col-form-label">Parrafo4:</label>
+                                    <div class="col-md-11">
+                                        <textarea class="form-control" id="parrafo4" rows="3" placeholder="Contenido" name="parrafo4" maxlength="450">{{old('parrafo4') ?? $noticia['parrafo4'] }}</textarea>
                                     </div>                                    
                                   </div>
                                   
                                   <div class="form-group row">
                                   <label for="imagen1" class="col-sm-1 col-form-label">Imagen:</label>
                                     <div class="col-sm-3">
+                                    @isset($update)
+                                    <input type="file" class="form-control-file" id="imagen1" name="imagen1">
+                                    @else
                                     <input type="file" class="form-control-file" id="imagen1" name="imagen1" required>
+                                    @endisset
                                     </div>
                                     <label for="imagen2" class="col-sm-1 col-form-label">Imagen:</label>
                                     <div class="col-sm-3">
+                                    @isset($update)
+                                    <input type="file" class="form-control-file" id="imagen2" name="imagen2">
+                                    @else
                                     <input type="file" class="form-control-file" id="imagen2" name="imagen2" required>
+                                    @endisset
                                     </div>
                                     <label for="imagen3" class="col-sm-1 col-form-label">Imagen:</label>
                                     <div class="col-sm-3">
@@ -86,7 +103,7 @@
                                 @endisset-->
                             </div>
                             <div class="modal-footer">
-                                <a style="color:white" type="button" class="btn btn-danger btn-md" data-dismiss="modal" href="{{ route('plasticos.getAll') }}">CANCELAR</a>
+                                <a style="color:white" type="button" class="btn btn-danger btn-md" data-dismiss="modal" href="{{ route('noticias.getAll') }}">CANCELAR</a>
 		                        <button type="submit" class="btn btn-success btn-md">{{ $textButton }}</button>
 	                        </div>
 	                    </form>

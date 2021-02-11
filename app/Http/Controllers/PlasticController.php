@@ -119,9 +119,10 @@ class PlasticController extends Controller
             $file = $request->file('foto');
             $name = time().$file->getClientOriginalName();
             $img = Image::make($file);
+            $img->resize(340, 340);
             //$img->resize(1280, 720);
             //$img->insert(public_path().'/assets/img/Agua5.png', 'bottom-left', 110, 70);
-            $img->save(public_path().'/images/shop'.$name);
+            $img->save(public_path().'/images/shop/'.$name);
         }
 
         $plastic = Plastic::findOrFail($id);
@@ -131,7 +132,8 @@ class PlasticController extends Controller
         $plastic->descripcion = $request->input('descripcion');
         $plastic->categoria = $request->input('categoria');
         if($request->hasfile('foto')){
-            $plastic->ubicacion = 'images/shop'.$name;
+            unlink(public_path().'/'.$plastic->ubicacion);
+            $plastic->ubicacion = 'images/shop/'.$name;
         }
         $plastic->save();
 
@@ -144,8 +146,13 @@ class PlasticController extends Controller
      * @param  \App\Models\Plastic  $plastic
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Plastic $plastic)
+    public function destroy($id)
     {
-        //
+        $plastic = Plastic::findOrFail($id);
+        if($plastic->ubicacion != null){
+            unlink(public_path().'/'.$plastic->ubicacion);
+        }
+        $plastic->delete();
+        return redirect('lista');
     }
 }

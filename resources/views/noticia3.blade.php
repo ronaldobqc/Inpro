@@ -30,6 +30,9 @@
 									<header class="entry-header">
 										
 										<h1 class="entry-title topmargin_0"> {{ $noticia['titulo'] }} </h1>
+										<div class="entry-meta small-text big medium content-justify"> <span class="highlight2links">
+													<a> {{ $noticia['autor'] }}</a>
+										</span> ></div>
 									</header>
 									<!-- .entry-header -->
 									<div class="entry-content">
@@ -37,7 +40,7 @@
 					
 										<p><div> <img class="alignleft" alt="" src="{{ URL::asset($noticia['foto']) }}"> <p>{{ $noticia['parrafo2'] }}</p> </div></p>
 										<p>{{ $noticia['parrafo3'] }}</p>
-
+										<p>{{ $noticia['parrafo4'] }}</p>
 										
 									</div>
 									<!-- .entry-content -->
@@ -62,11 +65,6 @@
 										<article class="vertical-item content-padding with_border color4_border text-center post format-standard">
 											<div class="item-media bottommargin_30"> <img src="{{ URL::asset($noticia['imagen3']) }}" alt="">
 												<div class="media-links color3"> <a href="{{ URL::asset($noticia['imagen3']) }}" class="abs-link prettyPhoto" title="" data-gal="prettyPhoto[gal]"></a> </div>
-											</div>
-										</article>
-										<article class="vertical-item content-padding with_border color_border text-center post format-standard">
-											<div class="item-media bottommargin_30"> <img src="{{ URL::asset($noticia['imagen1']) }}" alt="">
-												<div class="media-links"> <a href="{{ URL::asset($noticia['imagen1']) }}" class="abs-link prettyPhoto" title="" data-gal="prettyPhoto[gal]"></a> </div>
 											</div>
 										</article>
 

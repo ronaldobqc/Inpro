@@ -22,7 +22,8 @@ class CreateNoticiasTable extends Migration
             $table->string('portada');
             $table->string('parrafo1', 450);
             $table->string('parrafo2', 450);
-            $table->string('parrafo3', 450)->nullable();
+            $table->string('parrafo3', 450);
+            $table->string('parrafo4', 450)->nullable();
             $table->string('foto')->nullable();
             $table->string('imagen1');
             $table->string('imagen2');
