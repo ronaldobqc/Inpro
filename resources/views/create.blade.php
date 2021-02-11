@@ -53,10 +53,15 @@
                                 <div class="form-group row">
                                     <label for="descripcion" class="col-sm-2 col-form-label">Descripcion:</label>
                                     <div class="col-md-4">
-                                        <textarea class="form-control" id="descripcion" rows="2" placeholder="Descripcion" name="descripcion" maxlength="80">{{old('descripcion') ?? $plastic['descripcion']}}</textarea>
+                                        <textarea class="form-control" id="descripcion" rows="2" placeholder="Descripcion" name="descripcion" maxlength="80" required>{{old('descripcion') ?? $plastic['descripcion']}}</textarea>
                                     </div>
                                     <label for="file" class="col-sm-2 col-form-label">Imagen:</label>
-					                <input type="file" class="form-control-file" id="file" name="foto">
+                                    @isset($update)
+					                    <input type="file" class="form-control-file" id="file" name="foto">
+                                    @else
+                                        <input type="file" class="form-control-file" id="file" name="foto" required>
+                                    @endisset
+
   				                </div>
   				        
 
