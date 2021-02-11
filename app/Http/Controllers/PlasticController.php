@@ -53,7 +53,11 @@ class PlasticController extends Controller
             $file = $request->file('foto');
             $name = time().$file->getClientOriginalName();
             $img = Image::make($file);
-            //$img->resize(1280, 720);
+            $img->resize(340, 340);
+            /*$img->rectangle(3, 3, 337, 337, function ($draw) {
+                $draw->background('rgba(255, 255, 255, 0.5)');
+                $draw->border(2, '#0a4e90');
+            });*/
             //$img->insert(public_path().'/assets/img/Agua5.png', 'bottom-left', 110, 70);
             $img->save(public_path().'/images/shop/'.$name);
         }

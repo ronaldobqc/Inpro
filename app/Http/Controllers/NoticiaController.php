@@ -47,11 +47,12 @@ class NoticiaController extends Controller
             $file = $request->file('portada');
             $namePortada = time().$file->getClientOriginalName();
             $img = Image::make($file);
-            $img->resize(720, 405, function ($constraint){
+            //720 405
+            $img->resize(940, 530, function ($constraint){
                 $constraint->aspectRatio();
                 $constraint->upsize();
             });
-            $img->insert(public_path().'/img/icon.png', 'bottom-left', 20, 20);
+            $img->insert(public_path().'/images/logo-light.png', 'bottom-left', 40, 40);
             $img->save(public_path().'/images/events/'.$namePortada);
         }
 
@@ -74,7 +75,7 @@ class NoticiaController extends Controller
                 $constraint->aspectRatio();
                 $constraint->upsize();
             });
-            $img->insert(public_path().'/img/icon.png', 'bottom-left', 10, 10);
+            $img->insert(public_path().'/images/logo-light.png', 'bottom-left', 20, 20);
             $img->save(public_path().'/images/events/'.$nameImagen1);
         }
 
@@ -86,7 +87,7 @@ class NoticiaController extends Controller
                 $constraint->aspectRatio();
                 $constraint->upsize();
             });
-            $img->insert(public_path().'/img/icon.png', 'bottom-left', 10, 10);
+            $img->insert(public_path().'/images/logo-light.png', 'bottom-left', 20, 20);
             $img->save(public_path().'/images/events/'.$nameImagen2);
         }
 
@@ -98,7 +99,7 @@ class NoticiaController extends Controller
                 $constraint->aspectRatio();
                 $constraint->upsize();
             });
-            $img->insert(public_path().'/img/icon.png', 'bottom-left', 10, 10);
+            $img->insert(public_path().'/images/logo-light.png', 'bottom-left', 20, 20);
             $img->save(public_path().'/images/events/'.$nameImagen3);
         }
         

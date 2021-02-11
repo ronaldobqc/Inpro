@@ -34,7 +34,7 @@
 					</div>
 				</div>
 			</section>
-			<section id="features" class="ds color parallax page_features section_padding_top_150 section_padding_bottom_150">
+			<section id="features" class="ds color parallax page_features section_padding_top_100 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 col-lg-5">
@@ -74,16 +74,16 @@
 					</div>
 				</div>
 			</section>
-			<div id="testimonials" class="ls section_padding_top_150 section_padding_bottom_150">
+			<div id="testimonials" class="ls section_padding_top_100 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
 							
-								<blockquote class="text-center with_quote topmargin_0">
+								<blockquote class="text-center">
 									<div class="item-meta">
 										<h2> <span class="thin">Valores </span> Organizacionales </h2>
 									</div>
-										<p Align = "justify" class="highlightdark">
+										</br><p Align = "justify" class="highlightdark">
 											<b>Honestidad, </b> 
 											Ser sincero, franco, no tener segundas intenciones en el trato con las otras personas; no sacar ventaja de las posibles debilidades o situaciones de inferioridad de otros individuos. 
 										</p>
@@ -120,12 +120,12 @@
 					</div>
 				</div>
 			</div>
-			<section id="features" class="ds color parallax page_comercio section_padding_top_150 section_padding_bottom_150">
+			<section id="features" class="ds color parallax page_comercio section_padding_top_100 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
 							<h2> <span class="thin">Política de </span> <span class="highlight2">Principios Comerciales</span></h2>
-							<p Align = "justify"  style="color:white;" class="highlightdark">
+						</br><p Align = "justify"  style="color:white;" class="highlightdark">
 								<i class="fa fa-check highlight rightpadding_10" aria-hidden="true">
 								</i>Proporcionar productos de calidad destacados e inigualables que entregan un valor excepcional a nuestros clientes y que son seguros para el uso al que se destinan.</p>
 							<p Align = "justify" style="color:white;" class="highlightdark">
@@ -166,7 +166,7 @@
 				</div>
 			</section>
 
-			<div id="testimonials" class="ls section_padding_top_150 section_padding_bottom_150">
+			<div id="testimonials" class="ls section_padding_top_100 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
@@ -183,12 +183,12 @@
 				</div>
 			</div>
 
-			<section id="features" class="ds color parallax page_seguridad section_padding_top_150 section_padding_bottom_150">
+			<section id="features" class="ds color parallax page_seguridad section_padding_top_100 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 col-lg-5">
 							<h2 > <span class="thin">Política de </span> <span class="highlight"> Salud y Seguridad </span> <span class="thin">en el trabajo </span></h2>
-							<p Align = "justify" class="fontsize_20"> <strong>Inpromat</strong> es una empresa de crecimiento continuo, procesa materiales para la fabricación de artículos de plástico mediante procesos de moldeo por inyección 
+						</br><p Align = "justify" class="fontsize_20"> <strong>Inpromat</strong> es una empresa de crecimiento continuo, procesa materiales para la fabricación de artículos de plástico mediante procesos de moldeo por inyección 
 								y soplado. Comprende que la prevención de riesgos y protección de la salud de los trabajadores es una preocupación para el desarrollo normal de las actividades; gestionar 
 								los riesgos y accidentes en las mismas es primordial, debido a que su materialización afecta a la integridad física y salud de las personas, así también pudiendo ocasionar 
 								daños a los equipos e infraestructura. La Política de Seguridad y Salud en el Trabajo recoge el compromiso de la Gerencia y fundamenta sus principios de la siguiente manera: </p>
@@ -218,7 +218,7 @@
 				</div>
 			</section>
 
-			<div id="testimonials" class="ls section_padding_top_150 section_padding_bottom_150">
+			<div id="testimonials" class="ls section_padding_top_100 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
@@ -235,7 +235,7 @@
 				</div>
 			</div>
 
-			<section id="features" class="ds color parallax page_finanza section_padding_top_150 section_padding_bottom_150">
+			<section id="features" class="ds color parallax page_finanza section_padding_top_100 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
@@ -263,7 +263,7 @@
 				</div>
 			</section>
 
-			<div id="testimonials" class="ls section_padding_top_150 section_padding_bottom_150">
+			<div id="testimonials" class="ls section_padding_top_100 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
@@ -294,7 +294,7 @@
 				</div>
 			</div>
 
-			<section id="features" class="ds color parallax page_rrhh section_padding_top_150 section_padding_bottom_150">
+			<section id="features" class="ds color parallax page_rrhh section_padding_top_100 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
@@ -340,7 +340,7 @@
 				</div>
 			</section>
 
-			<div id="testimonials" class="ls section_padding_top_150 section_padding_bottom_150">
+			<div id="testimonials" class="ls section_padding_top_100 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
